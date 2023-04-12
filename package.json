@@ -1,0 +1,21 @@
+{
+  "name": "interview-task",
+  "version": "1.0.0",
+  "description": "Book and Auther CRUD Api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&nodemon Server/server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "SIVASANKAR J",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
